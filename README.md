@@ -1,7 +1,7 @@
 # GraphCodeBERT-based two-stage hash code-to-code search
 Implement two-stage hash accurate and efficient code-to-code search based on graphcodebert
 
-#### If you have any questions, How to reach me
+#### If you have any questions, plz contact me
 ```shell
 Xin Huang
 Email : ishuangxin@hust.edu.cn
