@@ -1,11 +1,26 @@
 # GraphCodeBERT-based two-stage hash code-to-code search
 Implement two-stage hash accurate and efficient code-to-code search based on graphcodebert
 
+#### If you have any questions, How to reach me
+```shell
+Xin Huang
+Email : ishuangxin@hust.edu.cn
+WeChat: 13429808852
+```
+
+---
 #### Script
 - Connetct to Node 13
 ```shell
 ssh wanyao@222.20.94.68 -p 50013
 ```
+
+- Enevoriment
+```shell
+# conda virtual env
+conda activate py37-1.7
+```
+
 - Dataset Path
 ```shell
 # origin processed dataset
@@ -92,11 +107,18 @@ python /home/wanyao/huangxin/graphcodebert-cpp-hash/run.py
 ```
 
 ---
+#### Dataset statistics
+![Dataset statistics](./picture/dataset.png)
+
 #### Result
 - [Experiment Result Link](https://docs.google.com/spreadsheets/d/1piEynFXIe9i9LCOsZtK1ZkJC0GiD2gh5RfGk5G9NSzw/edit?usp=sharing)
 - [PPT Link，from P20 page](https://docs.google.com/presentation/d/1rOhiLsYaX5sV0ljoVbJm0kGi0PuBkpqn-LFMDRyI3UQ/edit#slide=id.g1cccee116f0_3_230)
 
 ![Experiment Result](./picture/experiment%20result.png)
+
+---
+#### C++ Library
+- [Faiss to construct Hashing index](https://github.com/facebookresearch/faiss)
 
 #### Reference
 - [Deep Code Search](https://ieeexplore.ieee.org/abstract/document/8453172)
@@ -106,7 +128,4 @@ python /home/wanyao/huangxin/graphcodebert-cpp-hash/run.py
 - R2PS: Retriever and Ranker Framework with Probabilistic Hard Negative Sampling for Code Search (in folder './paper')
 - [Efficient Passage Retrieval with Hashing for Open-domain Question Answering
 ](https://arxiv.org/abs/2106.00882)
-
---- 
-#### C++ Library
-- [Faiss to construct Hashing index](https://github.com/facebookresearch/faiss)
+- [The Stack: 3 TB of permissively licensed source code](https://arxiv.org/abs/2211.15533#:~:text=Large%20Language%20Models%20(LLMs)%20play,for%20code%20understanding%20and%20generation.)

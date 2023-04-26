@@ -1,0 +1,19 @@
+python run.py \
+       --output_dir=./saved_models/cpp-without-dfg-triple-loss-hash \
+       --config_name=microsoft/graphcodebert-base \
+       --model_name_or_path=microsoft/graphcodebert-base \
+       --tokenizer_name=microsoft/graphcodebert-base \
+       --lang=java \
+       --do_demo \
+       --train_data_file=/home/wanyao/huangxin/graphcodebert-cpp-hash/dataset/cpp-dataset-split/train_with_negative.jsonl \
+       --eval_data_file=/home/wanyao/huangxin/graphcodebert-cpp-hash/dataset/cpp-dataset-split/valid_with_negative.jsonl \
+       --test_data_file=/home/wanyao/huangxin/graphcodebert-cpp-hash/dataset/cpp-dataset-split/test_with_negative.jsonl \
+       --codebase_file=/home/wanyao/huangxin/graphcodebert-cpp-hash/dataset/cpp-dataset-split/codebase_with_negative.jsonl \
+       --num_train_epochs 10 \
+       --code_length 320 \
+       --data_flow_length 32 \
+       --nl_length 128 \
+       --train_batch_size 16 \
+       --eval_batch_size 64 \
+       --learning_rate 2e-5 \
+       --seed 123456
