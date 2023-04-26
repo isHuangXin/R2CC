@@ -129,3 +129,17 @@ python /home/wanyao/huangxin/graphcodebert-cpp-hash/run.py
 - [Efficient Passage Retrieval with Hashing for Open-domain Question Answering
 ](https://arxiv.org/abs/2106.00882)
 - [The Stack: 3 TB of permissively licensed source code](https://arxiv.org/abs/2211.15533#:~:text=Large%20Language%20Models%20(LLMs)%20play,for%20code%20understanding%20and%20generation.)
+
+---
+#### CPP Code Search Demo
+- Code Search Demo in CPP
+![cpp_search_demo](./picture/cpp_search_demo.png)
+
+- Why 0.04s → 0.4s
+![time_caluate](./picture/time_caluate.png)
+
+- Why 0.04s → 0.4s: Tokenize also need time !!!
+![tokenizer](./picture/tokenizer.png)
+
+- Chrome 0.37 seconds
+![chrome](./picture/chrome.png)
