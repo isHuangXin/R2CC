@@ -1,12 +1,14 @@
 # GraphCodeBERT-based two-stage hash fast code search
 Implement two-stage hash accurate and efficient code search based on GraphCodeBERT
 
-<img src="./picture/hust_logo.jpeg" alt="图片描述" width="30%" style="display:block;margin:auto;">
-<div style="text-align:center">
- <h3>&</h3>
+<div align="center">
+  <img src="./picture/hust_logo.jpeg" alt="图片描述" width="45%">
+  
+   <img src="./picture/tencent_logo.png" alt="图片描述" width="38%">
 </div>
 
-<img src="./picture/tencent_logo.png" alt="图片描述" width="30%" style="display:block;margin:auto;">
+
+
 
 [//]: # (<img src="./picture/xiaohui.png" alt="image" width="23%"> &)
 [//]: # (<img src="./picture/qi_e.jpeg" alt="image" width="17%">)
