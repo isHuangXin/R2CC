@@ -1,5 +1,5 @@
-# GraphCodeBERT-based two-stage hash code-to-code search
-Implement two-stage hash accurate and efficient code-to-code search based on graphcodebert
+# GraphCodeBERT-based two-stage hash fast code search
+Implement two-stage hash accurate and efficient code search based on GraphCodeBERT
 
 #### If you have any questions, plz contact me
 ```shell
