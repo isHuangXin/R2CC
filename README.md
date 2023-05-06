@@ -20,14 +20,14 @@ Implement two-stage hash accurate and efficient code search based on GraphCodeBE
 ```shell
 Xin Huang
 Email : ishuangxin@hust.edu.cn
-WeChat: 13429808852
+WeChat: is_HuangXin
 ```
 
 ---
 #### Script
 - Connetct to Node 13
 ```shell
-ssh wanyao@222.20.94.68 -p 50013
+ssh our_gpu_server -p 50013
 ```
 
 - Enevoriment
