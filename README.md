@@ -27,7 +27,7 @@ WeChat: is_HuangXin
 #### Script
 - Connetct to Node 13
 ```shell
-ssh our_gpu_server -p 50013
+ssh our_gpu_server_ip_address -p 50013
 ```
 
 - Enevoriment
